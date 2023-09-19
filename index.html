@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cafe coffee</title>
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning fw-bold" href="#">Cafe Coffeee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExample">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#order">Orders</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Deals
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer" aria-disabled="true">Location</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success bg-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- carosel -->
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="coffeee.jpg" class="slide d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="burgger.png" class="slide d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="cocup.webp" class="slide d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="container" id="Order">
+    <h1 class="text-center">Order Your Food Now...!</h1>
+    <div class="row">
+        
+        <div class="col-4">
+        <div class="card text-center border-2 border-warning" style="width: 18rem;height: 35rem;">
+            <img src="coffee-expresso.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Expresso single short</h5>
+              <p class="card-text text-danger">Rs:60.00</p>
+              <a href="#" class="btn btn-primary">Oder Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+        <div class="card  border-2 border-warning" style="width: 18rem;height:35rem;">
+            <img src="expresso-doubleshort.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Expresso Double Short</h5>
+              <p class="card-text text-danger">Rs:80.00</p>
+              <a href="#" class="btn btn-primary">Oder Now</a>
+            </div>
+          </div>
+          </div>
+        <div class="col-4">
+        <div class="card  border-2 border-warning" style="width: 18rem;height: 35rem;">
+            <img src="capaccino.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">capaccino</h5>
+              <p class="card-text text-danger">Rs:60.00</p>
+              <a href="#" class="btn btn-primary">Oder Now</a>
+            </div>
+          </div>
+          </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-4">
+        <div class="card  border-2 border-warning" style="width: 18rem;height: 35rem;">
+            <img src="coldcoffee.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cold Coffee</h5>
+              <p class="card-text text-danger">Rs:90.00</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          </div>
+        <div class="col-4">
+        <div class="card  border-2 border-warning" style="width: 18rem;height:35rem;">
+            <img src="fapra.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Frappuccino</h5>
+              <p class="card-text text-danger">Rs:110.00</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          </div>
+        <div class="col-4">
+        <div class="card  border-2 border-warning" style="width: 18rem;height:35rem;">
+            <img src="latte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <p class="card-text text-danger">Rs:110.00</p>
+              <a href="#" class="btn btn-primary">Order N.cow</a>
+            </div>
+          </div> 
+          </div>
+    </div>
+
+
+  </div>
+  <!-- footer -->
+   <div class="container-fluid bg-warning" id="footer">
+    <div class="row">
+        <h1 class="text-center">Location</h1>
+        <div class="col-6">
+<h1 class="text-white">Cafe coffee</h1>
+    <h4>Kottakkal</h4>
+    <h4>Kerala</h4>
+    <p>Tel:9447164788</p>
+    <p>Email:cafecoffee@gmail.com</p>
+    <p>WWW.cafecoffee.com</p>
+        </div>
+        <div class="col-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5860196715034!2d75.98987177417564!3d10.994587455133564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b35ff38fc4ad%3A0x4576f3aaec32e374!2sCoffee%20Cream!5e0!3m2!1sen!2sin!4v1694614707197!5m2!1sen!2sin" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+   </div>
+   <!-- bootstap js -->
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
